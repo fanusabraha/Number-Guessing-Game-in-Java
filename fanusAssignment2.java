@@ -5,7 +5,8 @@ public class fanusAssignment2 {
         Scanner scanner = new Scanner(System.in);
         int numberofTries = 0;
         int lottery =-1;
-        int number = (int) Math.random() * 100;
+        double random = Math.random() * 100;
+        int number= (int)random;
 
         while (numberofTries<5){
             System.out.println("Guess a number which is between 1 & 100");
